@@ -1,0 +1,543 @@
+@charset "utf-8";
+
+
+
+/***********************************************************************************************************************
+												FORMATAÇÃO DIV FORMULARIO
+***********************************************************************************************************************/
+
+
+.cadFuncionario {
+	position: relative;
+	width: 1170px;
+	height: auto;
+	background-color: #ffffff;
+	z-index: 50;
+	font-family: 'Lato 100', sans-serif;
+	font-weight: lighter;
+	color: #808080;
+	text-transform: uppercase;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.cadFuncionario h1 {
+	font-size: 25pt;
+	text-align: left;
+	text-transform: uppercase;
+	margin: 0 5%;
+}
+
+.cadFuncionario h3 {
+	position: relative;
+	text-transform: uppercase;
+	top: -70px;
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+	margin: 0 5%;
+}
+
+
+span.titulo-emprestimo {
+	color: #6d6d6d;
+	font-family: 'Lato', sans-serif;
+}
+
+div#formulario p.dado{
+	font-weight: bold;
+	padding-top: 10px;
+	margin-bottom: -12px;
+
+}
+
+
+.cadFuncionario div#pessoais {
+	position: relative;
+	margin: -30px 70px;
+}
+
+.cadFuncionario div#pessoais h4 {
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.cadFuncionario div#pessoais p {
+	margin-top: -5px;
+}
+
+.cadFuncionario div#acesso {
+	position: relative;
+	margin: -550px 0 0 435px;
+}
+
+.cadFuncionario div#acesso h4 {
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+.cadFuncionario div#acesso p {
+	margin-top: 5px;
+}
+
+.cadFuncionario div#endereco{
+	position: relative;
+	margin: -538px 0 0 800px;
+}
+
+.cadFuncionario h3 {
+	margin-top: -5px;
+	font-size: 10pt;
+	font-family: 'Lato 100', sans-serif;
+	font-weight: lighter;
+}
+
+.cadFuncionario h4 {
+	color: #1e6ea3;
+}
+
+.cadFuncionario h1 {
+	font-size: 30pt;
+	font-family: 'Lato 100', sans-serif;
+	font-weight: lighter;
+	padding-top:20px ;
+}
+
+.cadFuncionario a {
+	text-decoration: none;
+	color:#808080;
+}
+
+.cadFuncionario a#cadastrar {
+	background-color: #1e6ea3;
+	font-size: 15pt;
+	border-radius: 3px;
+	color: #ffffff;
+	padding: 7px;
+	margin: 0 0 0 945px;
+	position: relative;
+	top: -50px;
+}
+
+#mascara{
+	display:none;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:1;
+	background-color:#000;
+}
+
+/*FORMATAÇÃO CAMPOS INPUTS*/
+
+input[type=email] {
+	width: 268px;
+	height: 20px;
+	font-size: 12pt;
+	padding: 5px;
+}
+
+input[type=password] {
+	width: 268px;
+	height: 20px;
+	font-size: 12pt;
+	padding: 5px;
+
+}
+
+input[type=date] {
+	width: 268px;
+	height: 20px;
+	font-size: 12pt;
+	padding: 5px;
+
+}
+
+input[type=text] {
+	width: 268px;
+	height: 20px;
+	font-size: 12pt;
+	padding: 5px;
+
+}
+
+input[type=number] {
+	width: 268px;
+	height: 20px;
+	font-size: 12pt;
+	padding: 5px;
+
+}
+
+
+.cadFuncionario input#fun_numero{
+	width: 78px;
+}
+
+.cadFuncionario input#fun_complemento{
+	width: 169px;
+	margin-top: 5px;
+}
+
+.cadFuncionario p {
+	position: relative;
+	margin-top: 10px;
+}
+
+.cadFuncionario input#fun_cidade {
+	width: 169px;
+}
+
+.cadFuncionario input#fun_codestado {
+	width: 78px;
+}
+
+
+.cadFuncionario div#cidade {
+	position: relative;
+	top: -70px;
+	left: 100px;
+}
+
+.cadFuncionario div#complemento{
+	width: 150px;
+	height: 25px;
+	position: relative;
+	display: block;
+	top: -81px;
+	left: 100px;
+}
+
+.cadFuncionario div#bairro {
+	margin: -40px 0 0 0;
+}
+
+.cadFuncionario div#acesso div#termo-de-uso {
+	border: 1px solid #808080;
+	overflow-y:scroll;
+	overflow-x: hidden;
+	width:268px;
+	height:180px;
+	position: relative;
+	margin: 5px 0 5px 0;
+	text-align: justify;
+	font-size: 11pt;
+	padding: 5px;
+
+}
+
+p input#btnCancela_user {
+	position: relative;
+	width: 110px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	left: 830px;
+	top: -30px;
+	margin: 0 10px;
+	padding: 10px 20px;
+	border-radius: 3px;
+	background: #033557;
+	color: #FFFFFF;
+}
+
+p input#btnSalvar_user {
+	position: relative;
+	width: 110px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	left: 830px;
+	top: -30px;
+	padding: 10px 20px;
+	border-radius: 3px;
+	background: #033557;
+	color: #FFFFFF;
+}
+
+input {
+	background-color: #ffffff;
+	border: 1px solid #808080;
+}
+
+::-webkit-input-placeholder {
+	font-size: 11pt;
+	padding: 1px;
+	color: #b2b3b4;
+}
+
+/* FIM DA FORMATAÇÃO CAMPOS INPUTS*/
+
+.clear {
+	clear: both;
+}
+/**********************************************************************************************************************
+FORMATAÇÃO FOOTER RODAPÉ
+**********************************************************************************************************************/
+
+footer {
+	background-color: #033557;
+	width: 100%;
+	overflow: hidden;
+	opacity: 0.90;
+	clear: both;
+}
+
+footer p, footer h1 {
+	color: #FFF;
+	margin-left: 25%;
+}
+
+div#quem-somos {
+	width: 40%;
+	float: left;
+	margin: 2% 5%;
+}
+h1#titulo-rodape {
+	font-family: 'Lato', sans-serif;
+	font-size: 20pt;
+	color: #FFFFFF;
+	margin-left: 2%;
+	margin-bottom: -20px;
+}
+
+p#about {
+	font-family: 'Lato', sans-serif;
+	text-align: justify;
+	float: left;
+	text-indent: 7%;
+}
+
+aside#lado-baixo {
+	position: relative;
+	width: 30%;
+	float: right;
+	margin: 3% 5%;
+	left: -100px;
+	padding-top: 16px;
+}
+
+fieldset#faleConosco {
+	width: auto;
+	float: left;
+}
+
+fieldset#faleConosco input {
+	padding: 2%;
+	margin: 2%;
+}
+
+footer p a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+input#fEnviar {
+	position: relative;
+	float: right;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	border-radius: 2px;
+	padding: 5px;
+	left: 48px;
+	margin-right: 5px;
+	margin-top: 10px;
+	background-color: #ff3c00;
+
+}
+
+aside#lado-baixo p label {
+	position: relative;
+	float: left;
+	margin-top: 5%;
+	margin-left: -30%;
+	text-transform: uppercase;
+	font-size: 15pt;
+}
+
+textarea {
+	float: left;
+	margin-top: 2%;
+	padding-top: 5px;
+	margin-left: -30%;
+}
+
+nav#social ul#icons li {
+	display: inline-block;
+	position: relative;
+	width: 19%;
+	margin-left: -15px;
+	float: right;
+	margin-top: 13px;
+	left: 150px;
+}
+
+footer.second {
+	margin: 0 auto;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	float: left;
+	opacity: 0.90;
+}
+
+nav#menu-down {
+	position: relative;
+	width: 955px;
+	background-color: #012c49;
+	float: left;
+	top: -15px;
+	left: 140px;
+	margin: 0 5%;
+	padding: 10px 30px;
+	height: 20px;
+}
+
+ul#myheading2 li {
+	padding: 10px 30px;
+	margin-left: 5px;
+}
+
+/***********************************************************************************************************************
+												FORMATAÇÃO MEDIA
+***********************************************************************************************************************/
+
+
+@media screen and (max-width: 480px) {
+	body {
+		position: absolute;
+	}
+}
+
+@media screen and (max-width: 870px){
+	header {
+		position: absolute;
+	}
+
+	#menu-icon {
+		display: inline-block;
+	}
+
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background-color: #359591;
+		border: 1px solid #FFF;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 2px 0 2px 2px;
+	}
+
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+
+	nav:hover ul {
+		display: block;
+	}
+
+	section {
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	section.noticias {
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	section.publicacao {
+		width: 100%;
+		float: left;
+		margin: 2% 2%;
+		text-align: center;
+	}
+
+	article {
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	aside {
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+/*Formatação JQuery*/
+
+.library {
+	margin: 0 auto;
+}
+
+.library .slides {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.library .slides li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.library .slides li img {
+	display: block;
+	width: 100%;
+	max-width: none;
+}
+
+.library .slides li.active {
+	display: block; position: relative;
+}
+
+.library .crop li img {
+	width: auto;
+}
+
+.library .pager {
+	height: 40px;
+	text-align: center;
+}
+
+.library .pager li {
+	display: inline-block;
+}
+
+.library .pager li a,
+.library .pager li a span
+{
+	display: block;
+	height: 4px;
+	width: 4px;
+}
+
+.library .pager li a {
+	padding: 18px 8px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.library .pager li a span {
+	overflow: hidden;
+	background: #c0c0c0;
+	text-indent: -9999px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.library .pager li.active a span { background: #404040; }

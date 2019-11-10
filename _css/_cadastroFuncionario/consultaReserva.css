@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+/***********************************************************************************************************************
+										FORMATAÇÃO TABELA CONSULTA LIVROS USUÁRIO
+***********************************************************************************************************************/
+
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+.window_consultaReserva {
+    position: relative;
+    width: 1170px;
+    height: auto;
+    z-index: 50;
+    font-family: 'Lato 100', sans-serif;
+    font-weight: lighter;
+    color: #808080;
+    background: #fff;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.window_consultaReserva h1 {
+     position: relative;
+     font-size: 30pt;
+     margin: 0 auto;
+     left: -250px;
+     font-family:'Lato 100', sans-serif;
+     font-weight: lighter;
+     text-transform: uppercase;
+     color: #808080;
+ }
+
+.window_consultaReserva fieldset.consultas {
+     width: 30%;
+     margin-left: 2%;
+     float: left;
+ }
+
+.window_consultaReserva fieldset.consultas label {
+    float: left;
+    margin: 1% 10%;
+}
+
+span.titulo-emprestimo {
+	color: #555446;
+	font-family: 'Lato', sans-serif;
+}
+
+
+.window_consultaReserva div.down {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    top: 220px;
+    background: #ff3c00;
+}
+
+
+/***********************************************************************************************************************
+										FORMATAÇÃO FORMULÁRIO CONSULTA
+***********************************************************************************************************************/
+
+
+.window_consultaReserva input#btnConsultar {
+    position: relative;
+    width: 120px;
+    margin-top: 70px;
+    left: 380px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #002c60; /* Old browsers */
+    background: -moz-linear-gradient(top,  #002c60 0%, #002c60 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#002c60), color-stop(100%,#002c60)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #002c60 0%,#002c60 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #002c60 0%,#002c60 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #002c60 0%,#002c60 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #002c60 0%,#002c60 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002c60', endColorstr='#002c60',GradientType=0 );
+}
+
+.window_consultaReserva input#btnConsultar:hover {
+    background: #b42e05;
+    font-family: 'lato' , sans-serif;
+    color: #fff;
+}
+
+
+
+/***********************************************************************************************************************
+										FORMATAÇÃO TABELA CONSULTA ACERVO USUÁRIO
+***********************************************************************************************************************/
+
+
+
+table.consultarReserva {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    background: #fff;
+    text-align: center;
+    text-transform: none;
+    border: none;
+}
+
+table.consultarReserva tr.linha {
+     background: #cfe1ec;
+     border: none;
+ }
+
+table.consultarReserva tr.corpo td {
+    background: #fff;
+    height: 70px;
+}
+
+table.consultarReserva  td {
+    padding: 7px 0;
+}
+
+
+table.consultarReserva td {
+
+}
+
+table.consultarReserva form {
+    position: absolute;
+    width: 250px;
+    left: 880px;
+    margin: -30px 0;
+}
+
+table.consultarReserva input#btnEmprestar {
+    position: relative;
+    width: 120px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #002c60; /* Old browsers */
+    background: -moz-linear-gradient(top,  #002c60 0%, #002c60 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#002c60), color-stop(100%,#002c60)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #002c60 0%,#002c60 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #002c60 0%,#002c60 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #002c60 0%,#002c60 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #002c60 0%,#002c60 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002c60', endColorstr='#002c60',GradientType=0 );
+}
+
+table.consultarReserva input#btnEmprestar:hover {
+    background: #b42e05;
+    font-family: 'lato' , sans-serif;
+    color: #fff;
+}
+
+
+
+table.consultarReserva input#btnCancelar {
+    position: relative;
+    width: 120px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #002c60; /* Old browsers */
+    background: -moz-linear-gradient(top,  #002c60 0%, #002c60 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#002c60), color-stop(100%,#002c60)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #002c60 0%,#002c60 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #002c60 0%,#002c60 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #002c60 0%,#002c60 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #002c60 0%,#002c60 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002c60', endColorstr='#002c60',GradientType=0 );
+}
+
+table.consultarReserva input#btnCancelar:hover {
+    background: #b42e05;
+    font-family: 'lato' , sans-serif;
+    color: #fff;
+}

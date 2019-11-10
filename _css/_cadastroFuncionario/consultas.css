@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+/***********************************************************************************************************************
+										FORMATAÇÃO TABELA CONSULTA USUÁRIOS
+***********************************************************************************************************************/
+
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+.window_consultaUser {
+    position: relative;
+    width: 1170px;
+    height: auto;
+    background-color: #ffffff;
+    z-index: 50;
+    font-family: 'Lato 100', sans-serif;
+    font-weight: lighter;
+    color: #808080;
+    text-transform: uppercase;
+    margin: 10% auto;
+    text-align: left;
+}
+
+ h1 {
+	font-size: 30pt;
+	font-family:'Lato 100', sans-serif;
+	font-weight: lighter;
+    text-transform: uppercase;
+    color: #808080;
+     margin: 0 7%;
+}
+
+.window_consultaUser span {
+    font-size: 30pt;
+    font-family:'Lato 100', sans-serif;
+    padding-top:20px ;
+    text-transform: uppercase;
+    color: #808080;
+}
+
+.window_consultaUser h3 {
+	position: relative;
+	text-transform: uppercase;
+	top: -70px;
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+	margin: 0 5%;
+}
+
+span.titulo-emprestimo {
+	color: #555446;
+	font-family: 'Lato', sans-serif;
+}
+
+table#consultaUser {
+    border-spacing: 0px;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+
+}
+
+table#consultaUser td{
+    padding: 7px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+table#consultaUser tr#head_User td{
+    background-color: #cfe1ec;
+    font-weight: bold;
+}
+
+div.window_consultaUser input#empSair {
+    position: relative;
+    color: #ffffff;
+    top: 200px;
+    left: 850px;
+    margin: 2% 5%;
+    background-color: #002c60;
+    border-radius: 2px;
+    padding: 10px;
+    width: 100px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.window_consultaUser img {
+    width: 30px;
+    height: 30px;
+}
+
+/***********************************************************************************************************************
+										FORMATAÇÃO TABELA CONSULTA FUNCIOONÁRIOS
+***********************************************************************************************************************/
+
+
+
+.window_consultaFunc {
+    position: relative;
+    width: 1170px;
+    height: auto;
+    background-color: #ffffff;
+    z-index: 50;
+    font-family: 'Lato 100', sans-serif;
+    font-weight: lighter;
+    color: #808080;
+    text-transform: uppercase;
+    margin: 10% auto;
+    text-align: left;
+}
+
+.window_consultaFunc h1 {
+    font-size: 30pt;
+    font-family:'Lato 100', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #808080;
+    margin: 10% auto;
+}
+
+.window_consultaFunc span {
+    font-size: 30pt;
+    font-family:'Lato 100', sans-serif;
+    padding-top:20px ;
+    text-transform: uppercase;
+    color: #808080;
+}
+
+.window_consultaFunc h3 {
+    position: relative;
+    text-transform: uppercase;
+    top: -70px;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    margin: 0 5%;
+}
+
+span.titulo-emprestimo {
+    color: #555446;
+    font-family: 'Lato', sans-serif;
+}
+
+table#consultaFunc {
+    border-spacing: 0;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+
+}
+
+table#consultaFunc td{
+    padding: 7px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+table#consultaFunc tr#head_Func td{
+    background-color: #cfe1ec;
+    font-weight: bold;
+}
+
+.window_consultaFunc input#empSair {
+    position: relative;
+    color: #ffffff;
+    top: 200px;
+    left: 900px;
+    margin: 2% 5%;
+    background-color: #002c60;
+    border-radius: 2px;
+    padding: 10px;
+    width: 100px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.window_consultaFunc img {
+    width: 30px;
+    height: 30px;
+}

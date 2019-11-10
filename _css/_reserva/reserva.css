@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/*Formatação CSS Layout*/
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+.window_emprestimo h1 {
+	font-size: 30pt;
+	font-family:'Lato 100', sans-serif;
+	font-weight: lighter;
+	padding-top:20px ;
+    text-transform: uppercase;
+    margin: 0 5%;
+    color: #808080;
+}
+
+.window_emprestimo span {
+    font-size: 30pt;
+    font-family:'Lato 100', sans-serif;
+    padding-top:20px ;
+    text-transform: uppercase;
+    color: #808080;
+}
+
+.window_emprestimo h3 {
+	position: relative;
+	text-transform: uppercase;
+	top: -70px;
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+	margin: 0 5%;
+}
+
+
+
+/***********************************************************************************************************************
+												FORMATAÇÃO TABELA EMPRESTIMO LIVROS
+***********************************************************************************************************************/
+
+span.titulo-emprestimo {
+	color: #555446;
+	font-family: 'Lato', sans-serif;
+}
+
+div.window_emprestimo {
+	position: relative;
+	margin: 0 auto;
+	background: #fff;
+	top: 0px;
+	width: 1170px;
+	height: 570px;
+	z-index: 50;
+}
+
+table#historico {
+    border-spacing: 0px;
+    margin-top: -80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+
+}
+
+table#historico td{
+    padding: 7px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+table#historico tr#head td{
+    background-color: #cfe1ec;
+    font-weight: bold;
+}
+
+div.window_emprestimo input#empEscolher {
+    color: #ffffff;
+    position: relative;
+    top: 230px;
+    left: 85px;
+    background-color: #002c60;
+    border-radius: 2px;
+    padding: 10px;
+    width: 190px;
+    font-weight: bold;
+}
+
+div.window_emprestimo input#empCancelar {
+    color: #ffffff;
+    position: relative;
+    top: 230px;
+    left: 660px;
+    background-color: #002c60;
+    border-radius: 2px;
+    padding: 10px;
+    width: 100px;
+    font-weight: bold;
+}
+
+div.window_emprestimo input#empFinalizar {
+    color: #ffffff;
+    position: relative;
+    top: 230px;
+    left: 680px;
+    background-color: #002c60;
+    border-radius: 2px;
+    padding: 10px;
+    width: 100px;
+    font-weight: bold;
+}
+

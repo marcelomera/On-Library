@@ -1,0 +1,291 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+@import url(https://fonts.googleapis.com/css?family=Lato:100);
+
+
+.cad_Usuarios {
+    position: relative;
+    width: 1170px;
+    height: 650px;
+    background-color: #ffffff;
+    z-index: 50;
+    font-family: 'Lato 100', sans-serif;
+    font-weight: lighter;
+    color: #808080;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: left;
+
+}
+
+.cad_Usuarios h1 {
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0 5%;
+    font-size: 30pt;
+    font-family: 'Lato 100', sans-serif;
+    font-weight: lighter;
+    padding-top:20px ;
+}
+
+
+.cad_Usuarios div#formulario p.dado{
+    font-weight: bold;
+    padding-top: 10px;
+    margin-bottom: -12px;
+
+}
+
+span.titulo-usuario {
+    color: #6d6d6d;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.cad_Usuarios div#pessoais {
+    position: relative;
+    left: 60px;
+    top: -40px;
+    width: 280px;
+    float: left;
+}
+
+.cad_Usuarios div#pessoais p {
+    margin-top: 10px;
+}
+
+
+.cad_Usuarios div#acesso {
+    position: relative;
+    float: left;
+    top: -40px;
+    left: 145px;
+    width: 280px;
+}
+
+.cad_Usuarios div#acesso p {
+    margin-top: 10px;
+}
+
+.cad_Usuarios div#endereco{
+    position: relative;
+    float: left;
+    top: -40px;
+    left: 250px;
+    width: 280px;
+}
+
+.cad_Usuarios div#endereco p {
+    margin-top: 10px;
+}
+
+.cad_Usuarios h3 {
+    position: relative;
+    top: -100px;
+    margin: 0 3%;
+    color: #808080;
+    font-size: 8pt;
+    font-family: 'Lato 100', sans-serif ;
+    font-weight: lighter;
+
+}
+
+
+.cad_Usuarios h4 {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: #1e6ea3;
+}
+
+.cad_Usuarios a {
+    text-decoration: none;
+    color:#808080;
+}
+
+/*FORMATAÇÃO CAMPOS INPUTS*/
+
+
+.cad_Usuarios input[type=password] {
+    width: 268px;
+    height: 20px;
+    font-size: 12pt;
+    padding: 5px;
+}
+
+.cad_Usuarios input[type=date] {
+    width: 268px;
+    height: 20px;
+    font-size: 12pt;
+    padding: 5px;
+}
+
+.cad_Usuarios input[type=email] {
+    width: 268px;
+    height: 20px;
+    font-size: 12pt;
+    padding: 5px;
+
+}
+
+.cad_Usuarios input[type=text] {
+    width: 268px;
+    height: 20px;
+    font-size: 12pt;
+    padding: 5px;
+
+}
+
+.cad_Usuarios input[type=number] {
+    width: 268px;
+    height: 20px;
+    font-size: 12pt;
+    padding: 5px;
+
+}
+
+.cad_Usuarios input#btnInserir {
+    position: relative;
+    width: 120px;
+    top: 430px;
+    left: 130px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border-style: none;
+    color: #FFF;
+    font-size: 11pt;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #002c60; /* Old browsers */
+    background: -moz-linear-gradient(top,  #002c60 0%, #002c60 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#002c60), color-stop(100%,#002c60)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #002c60 0%,#002c60 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #002c60 0%,#002c60 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #002c60 0%,#002c60 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #002c60 0%,#002c60 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002c60', endColorstr='#002c60',GradientType=0 );
+}
+
+.cad_Usuarios input#btnInserir:hover {
+    background: #FF3802;
+    color: #fff;
+}
+
+.cad_Usuarios input#user_numero{
+    width: 78px;
+}
+
+.cad_Usuarios input#user_complemento{
+    width: 169px;
+}
+
+.cad_Usuarios div#endereco p label{
+    margin-bottom: 5px;
+}
+
+.cad_Usuarios input#user_cidade{
+    width: 169px;
+    margin: 7px 0;
+}
+
+.cad_Usuarios select#user_codestado {
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-size: 9pt;
+    top: 2px;
+    width: 90px;
+    color: #808080;
+    text-transform: uppercase;
+    padding: 6.6px 0;
+    border: 1px solid #808080;
+
+}
+
+#estado p select#cod_estado p label {
+    margin-bottom: 50px;
+}
+
+
+#estado p select#cod_estado {
+    width: 95px;
+    font-family: 'Lato', sans-serif;
+    font-size: 8pt;
+    text-transform: uppercase;
+    color: #808080;
+    position: relative;
+    top: 10px;
+    padding: 6.8px 7px;
+    text-align: center;
+    border: 1px solid #808080;
+}
+
+.cad_Usuarios div#cidade {
+    position: relative;
+    top: -83px;
+    left: 100px;
+}
+
+.cad_Usuarios #cidade label {
+    position: relative;
+    top: 5px;
+}
+
+.cad_Usuarios div#complemento{
+    width: 150px;
+    height: 25px;
+    position: relative;
+    display: block;
+    top: -75px;
+    left: 100px;
+}
+
+.cad_Usuarios div#bairro {
+    margin: 0;
+}
+
+.cad_Usuarios div#acesso div#termo-de-uso {
+    border: 1px solid #808080;
+    color: #808080;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    width:268px;
+    height:180px;
+    position: relative;
+    margin: 5px 0 5px 0;
+    text-align: justify;
+    font-size: 11pt;
+    padding: 5px;
+}
+
+.cad_Usuarios div#termo-de-uso p input#aceito {
+    margin-top: 10px;
+}
+
+
+.cad_Usuarios input {
+    border: 1px solid #808080;
+}
+
+::-webkit-input-placeholder {
+    font-size: 9pt;
+    padding: 1px;
+    color: #b2b3b4;
+}
+
+/* FIM DA FORMATAÇÃO CAMPOS INPUTS*/
+
+
+
+/* FORMATAÇÃO DOS CAMPOS OBRIGATORIOS */
+
+
+div.msg_erro {
+    color: red;
+    text-transform: capitalize;
+    font-size: 7pt;
+    font-weight: 800;
+    width: 100px;
+
+}

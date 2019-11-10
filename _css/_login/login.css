@@ -1,0 +1,101 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Lato);
+/*@import url(https://fonts.googleapis.com/css?family=Lato:300);*/
+
+.window_Login{
+    display: none;
+    width: 340px;
+    height: 260px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index: 5;
+    font-family: 'Lato', sans-serif;
+    color: #808080;
+}
+
+
+.window_Login h4 {
+    font-size: 11pt;
+    margin: 0 4% 0 ;
+}
+
+.window_Login a {
+    text-decoration: none;
+    color:#808080;
+}
+
+.window_Login a#botao {
+    color: #ffffff;
+    margin: 0 72% 0 ;
+    background-color: #d05f14;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.window_Login span.cadastro {
+    text-transform: uppercase;
+    font-size: 8pt;
+    margin: 3% 4% 0 ;
+    position: absolute;
+    font-weight: 600;
+    color: #808080;
+}
+
+form#project input#btnLogar {
+    color: #fff;
+}
+
+
+.window_Login span.cadastro:hover {
+    color: #1D6EA3;
+}
+
+#mascara{
+    display:none;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:1;
+    background-color:#000;
+}
+
+.window_Login a#x{
+    position: relative;
+    top: 7px;
+    left: 302px;
+    padding: 10px;
+    font-size: 15pt;
+    font-family: 'Lato', sans-serif;
+}
+
+/*FORMATAÇÃO CAMPOS*/
+
+.window_Login input[type=text] {
+    color: #ffffff;
+    border: #1D6EA3 solid 1px;
+    width: 300px;
+    height: 22px;
+    font-size: 12pt;
+    background-color:#1D6EA3;
+    padding: 5px;
+    margin: 0 4% 0 ;
+}
+
+.window_Login input[type=password] {
+    color: #ffffff;
+    border: #1D6EA3 solid 1px;
+    height: 22px;
+    width: 300px;
+    font-size: 12pt;
+    background-color: #1D6EA3;
+    padding: 5px;
+    margin: 0 4% 0 ;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff;
+    font-size: 11pt;
+    padding: 1px;
+}

@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+@import url(https://fonts.googleapis.com/css?family=Lato:100);
+
+/*Formatação CSS Layout*/
+
+
+
+/***********************************************************************************************************************
+												FORMATAÇÃO DIV ACERVO LIVROS
+***********************************************************************************************************************/
+
+.window_acervo h1 {
+	font-family: 'Lato 100', sans-serif;
+	font-size: 25pt;
+	text-align: left;
+	text-transform: uppercase;
+	margin: 0 5%;
+}
+
+.window_acervo h3 {
+	position: relative;
+	text-transform: uppercase;
+	top: -100px;
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+	margin: 0 5%;
+}
+
+.window_acervo {
+	width: 1170px;
+	height: 950PX;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	background: #fff;
+	z-index: 50;
+}
+
+span.titulo-emprestimo {
+	color: #6d6d6d;
+	font-family: 'Lato', sans-serif;
+}
+
+form#formAcervo {
+	position: relative;
+	margin-top: 50px;
+	width: 100%;
+	color: #808080;
+}
+
+section {
+	position: relative;
+	width: 29%;
+	float: left;
+	margin: 0 2%;
+	top: -90px;
+	text-align: center;
+}
+
+form#formAcervo label {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: #5e5e5e;
+	float: left;
+	margin: 0;
+	margin-left: 10%;
+	text-transform: uppercase;
+}
+
+form#formAcervo input {
+	font-family: 'lato' , sans-serif;
+	text-transform: uppercase;
+	margin: 2% 0;
+	padding: 5px;
+	border: 1px solid #b6b5b5;
+}
+
+form#formAcervo input#tCodigo {
+	position: relative;
+	left: -55px;
+	margin: 2% 0;
+}
+
+form#formAcervo p {
+	color: #c9c9c9;
+}
+
+form#formAcervo fieldset {
+	position: relative;
+	top: -50px;
+	width: 89%;
+	margin: 0 auto;
+	border: 1px solid #b6b5b5;
+}
+
+form#formAcervo legend {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: #5e5e5e;
+	text-align: left;
+	margin: -8px 0;
+	text-transform: uppercase;
+}
+
+form#formAcervo textarea {
+	margin: 0 auto;
+	height: 100px;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+form#formAcervo div.status-livro {
+	margin: 7% 0;
+	margin-bottom: 0;
+}
+
+
+section.formBarra {
+	position: relative;
+	width: 27%;
+	top: -120px;
+	left: 40px;
+	float: left;
+	margin: 1% 0;
+	text-align: center;
+}
+
+section.formRadios p {
+	position: relative;
+	float: left;
+	left: -50px;
+	top: 20px;
+}
+
+section.formRadios label {
+	position: relative;
+	left: 10px;
+}
+
+div.submit {
+	position: absolute;
+	width: 400px;
+	height: 50px;
+	left: 60%;
+	margin: 0 2%;
+}
+
+form#formAcervo div.submit input {
+	position: relative;
+	border-radius: 3px;
+	width: 100px;
+	top: -150px;
+	left: 180px;
+	color: #FFFFFF;
+	padding: 10px 10px;
+	background: #002c60; /* Old browsers */
+	background: -moz-linear-gradient(top,  #002c60 0%, #002c60 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#002c60), color-stop(100%,#002c60)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #002c60 0%,#002c60 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #002c60 0%,#002c60 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #002c60 0%,#002c60 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #002c60 0%,#002c60 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002c60', endColorstr='#002c60',GradientType=0 );
+}
+
+
+form#formAcervo div.submit input:hover {
+	background: #b42e05;
+	font-family: 'lato' , sans-serif;
+	color: #fff;
+}
+
+/***********************************************************************************************************************
+												FORMATAÇÃO SELECT
+***********************************************************************************************************************/
+
+form#formAcervo select {
+	font-family: 'Lato', sans-serif;
+	font-size: 8pt;
+	text-transform: uppercase;
+	color: #808080;
+	left: -70px;
+	position: relative;
+	padding: 6.8px 7px;
+	border: 1px solid #b6b5b5;
+}
+
+form#formAcervo select#editora {
+	font-family: 'Lato', sans-serif;
+	font-size: 8pt;
+	color: #808080;
+	left: -55px;
+	position: relative;
+	padding: 6.8px 7px;
+	border: 1px solid #808080;
+}
+
+form#formAcervo select#idioma {
+	font-family: 'Lato', sans-serif;
+	font-size: 8pt;
+	color: #808080;
+	left: -85px;
+	position: relative;
+	padding: 6.8px 7px;
+	border: 1px solid #808080;
+}
+
+form#formAcervo select#generos {
+	font-family: 'Lato', sans-serif;
+	font-size: 8pt;
+	color: #808080;
+	left: -50px;
+	position: relative;
+	padding: 6.8px 7px;
+	border: 1px solid #808080;
+}
+
+form#formAcervo select#formato {
+	font-family: 'Lato', sans-serif;
+	font-size: 8pt;
+	color: #808080;
+	left: -83px;
+	position: relative;
+	padding: 6.8px 7px;
+	border: 1px solid #808080;
+}
+
+#formAcervo fieldset#imagemLivro {
+	position: relative;
+	width: 300px;
+	top: -360px;
+	left: -700px;
+}
+
+
+
+/***********************************************************************************************************************
